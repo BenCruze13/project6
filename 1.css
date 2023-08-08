@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+}
+body{
+    min-height: 100vh;
+    background-image: url('6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#top{
+    background-color: #303c98;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+}
+#top h3{
+    font-size: 16px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    top: 60px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+    color: #303c98;
+    position: fixed;
+  
+}
+#h1{
+    margin-right: 670px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+#navbtn{
+
+    
+    border: 2px solid #303c98;
+    background: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+    margin-left: 50px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+    font-size: 20px;
+    
+}
+#navbtn a{
+    padding-left: 0px;
+    
+}
+#hr{
+    padding: 0px;
+    width: 90%;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.214);
+    position: fixed;
+    top: 150px;
+    margin-left: 40px;
+    position: fixed;
+}
+#abs h1{
+    color: black;
+    width: 800px;
+    margin-top: 280px;
+    margin-left: 90px;
+    font-size: 50px;
+    font-weight: 500;
+    position: absolute;
+}
+#btn{
+    position: absolute;
+    margin-top: 480PX;
+    margin-left: 90PX;
+    background-color: #303c98;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+#abs img{
+    float: right;
+    margin-top: 180px;
+    margin-right: 100px;
+}
+#btn i{
+    font-size: 30px;
+    text-align: center;
+   font-weight: 200;
+   margin-left: 5px;
+}
