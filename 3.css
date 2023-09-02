@@ -16,7 +16,7 @@
     width: 100%;
     z-index: 100;
     color: #fff;
-    position: fixed;
+    position: static;
     top: 0px;
 }
 #top h3{
@@ -32,7 +32,7 @@
     width: 100%;
     z-index: 100;
     color: #303c98;
-    position: fixed;
+    position: static;
   
 }
 #header img{
@@ -82,217 +82,91 @@ nav #present{
 section{
     min-height: 100vh;
 }
-#abs{
-    margin-top: 60px;
+#about-home{
+    height: 180vh;
 }
-#abs h1{
-    color: black;
-    width: 800px;
-    margin-top: 280px;
-    margin-left: 90px;
-    font-size: 56px;
-    font-weight: 600;
-    position: absolute;
-    line-height: 70px;
+#about-back{
+    height: 22%;
+    background: url('/images/photo_1_2023-08-27_07-07-22_o5zhe4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-#btn{
-    position: absolute;
-    margin-top: 550PX;
-    margin-left: 90PX;
-    background-color: #303c98;
-    border: none;
-    padding: 18px 40px;
-    border-radius: 40px;
+#about-back h1{
+    text-align: left;
+    padding-top: 9%;
+    margin-left: 10%;
+    font-size: 40px;
     color: #fff;
-    font-size: 20px;
-}
-#abs img{
-    float: right;
-    margin-top: 180px;
-    margin-right: 100px;
-}
-#btn i{
-    font-size: 30px;
-    text-align: center;
-   font-weight: 200;
-   margin-left: 5px;
-
-
-}
-
-#what h1{
-    color: black;
-    text-align: center;
-    font-size: 60px;
     font-weight: 500;
-    padding-top: 150px;
+    border-bottom: 4px solid #fff;
+    width: 6%;
 }
-#alit{
-    margin-left: 50px;
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#container1{
-    min-height: 360px;
-    width: 30%;
-    background: #a5abda;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-}
-#int{
-    background: #303c98;
-    width: 100px;
+#container{
     display: flex;
     justify-content: center;
-    border-radius: 24px;
-    padding: 13px;
-    margin-top: 80px;
-}
-#texts h2{
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 30px;
-}
-#texts p{
-    font-size: 18px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-#why h1{
-    color: black;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    padding-top: 50px;
-}
-#container2{
-    margin-left: 250px;
-    margin-top: 60px;
-    display: flex;
-    align-items: center
-}
-#him{
-    margin-left: 380px;
-}
-#left{
-    position: absolute;
-}
-#line1{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-#line1-texts{
-    margin-left: 15px;
-}
-#line1-texts h2{
-    font-weight: 550;
-    font-size: 25px;
-}
-#line1-texts p{
-    font-size: 18px;
-}
-#explore h1{
-    color: black;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    padding-top: 50px;
-}
-#box{
-    margin-left: 90px;
-    margin-top: 100px;
-    display: flex;
     flex-wrap: wrap;
-}
-#box1{
-    min-height: 145px;
-    width: 20.5%;
-    background: #a5abda;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-#box1 img{
-    margin-top: 30px;
-}
-#box1 h2{
-    font-weight: 550;
-    font-size: 15px;
     margin-top: 10px;
-}
-#late{
-    margin-left: 90px;
-    margin-top: 120px;
-    display: flex;
-}
-#late h2{
-    font-weight: 500;
-    font-size: 20px;
-}
-#late p{
-    margin-top: 30px;
-    font-weight: 520;
-    font-size: 60px;
-    line-height: 60px;
-}
-#fence{
-    border: 1px solid grey;
-    min-height: 250px;
-    padding: 20px;
-    border-radius: 20px;
     
 }
-
-#hov{
-    position: absolute;
-    margin-top:-20px;
-    left: 820px;
-}
-#fence p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-#fence h4{
-    font-weight: 600;
-}
-#fence h3{
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 20px;
-}
-#grp{
-    margin-left: 250px;
-}
-#container4 h1{
+#text h3{
+    font-size: 25px;
     color: black;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    margin-top: 170px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 8px;
 }
-#container4 #btn{
-    margin-top: 40px;
-    margin-left: 600px;
+#text{
+    background: #fff;
+    margin-top: 0px;
 }
-
-
+#text a{
+    margin-left: 0px;
+}
+#card{
+    width: 420px;
+    border-radius: 0px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#card img{
+    width: 100%;
+    height: auto;
+}
+#text{
+    padding: 16px;
+}
+#text p{
+    font-size: 15px;
+    line-height: 1.3;
+    color: black;
+}
+#cardbtn{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+}   
+#cardbtn a{
+    color: #fff;
+}
+#flex{
+    margin-right: 60px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
 footer{
     min-height: 55vh;
     padding: 0px 160px;
     display: flex;
-
+    margin-top: 90px;
     overflow: hidden;
 }
 #comp1{

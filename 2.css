@@ -16,7 +16,7 @@
     width: 100%;
     z-index: 100;
     color: #fff;
-    position: fixed;
+    position: static;
     top: 0px;
 }
 #top h3{
@@ -32,7 +32,7 @@
     width: 100%;
     z-index: 100;
     color: #303c98;
-    position: fixed;
+    position: static;
   
 }
 #header img{
@@ -82,50 +82,61 @@ nav #present{
 section{
     min-height: 100vh;
 }
-#abs{
-    margin-top: 60px;
+#about-home{
+    height: 330vh;
 }
-#abs h1{
-    color: black;
-    width: 800px;
-    margin-top: 280px;
-    margin-left: 90px;
-    font-size: 56px;
-    font-weight: 600;
-    position: absolute;
-    line-height: 70px;
+#about-back{
+    height: 12%;
+    background: url('/images/photo-1587293852726-70cdb56c2866.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
-#btn{
-    position: absolute;
-    margin-top: 550PX;
-    margin-left: 90PX;
-    background-color: #303c98;
-    border: none;
-    padding: 18px 40px;
-    border-radius: 40px;
+#about-back h1{
+    text-align: left;
+    padding-top: 9%;
+    margin-left: 10%;
+    font-size: 40px;
     color: #fff;
-    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 4px solid #fff;
+    width: 12%;
 }
-#abs img{
-    float: right;
-    margin-top: 180px;
-    margin-right: 100px;
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
-#btn i{
-    font-size: 30px;
-    text-align: center;
-   font-weight: 200;
-   margin-left: 5px;
-
-
+#word{
+    width: 40%;
+    margin-left: 40px;
 }
-
-#what h1{
+#word h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+#word p{
+    font-size: 18px;
+ 
+}
+span{
+    color: #303c98;
+    font-weight: 500;
+}
+#container2 h1{
     color: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
-    padding-top: 150px;
+    padding-top: 50px;
+}
+#container2 p{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
 }
 #alit{
     margin-left: 50px;
@@ -134,8 +145,8 @@ section{
     align-items: center;
     justify-content: center;
 }
-#container1{
-    min-height: 360px;
+#container3{
+    min-height: 300px;
     width: 30%;
     background: #a5abda;
     border-radius: 20px;
@@ -143,6 +154,7 @@ section{
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
+    justify-content: center;
 }
 #int{
     background: #303c98;
@@ -154,8 +166,8 @@ section{
     margin-top: 80px;
 }
 #texts h2{
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
     margin-top: 30px;
 }
@@ -165,126 +177,57 @@ section{
     margin-top: 20px;
 }
 
-#why h1{
-    color: black;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    padding-top: 50px;
-}
-#container2{
-    margin-left: 250px;
-    margin-top: 60px;
-    display: flex;
-    align-items: center
-}
-#him{
-    margin-left: 380px;
-}
-#left{
-    position: absolute;
-}
-#line1{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-#line1-texts{
-    margin-left: 15px;
-}
-#line1-texts h2{
-    font-weight: 550;
-    font-size: 25px;
-}
-#line1-texts p{
-    font-size: 18px;
-}
-#explore h1{
-    color: black;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    padding-top: 50px;
-}
-#box{
-    margin-left: 90px;
-    margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-}
-#box1{
-    min-height: 145px;
-    width: 20.5%;
-    background: #a5abda;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-#box1 img{
-    margin-top: 30px;
-}
-#box1 h2{
-    font-weight: 550;
-    font-size: 15px;
-    margin-top: 10px;
-}
-#late{
-    margin-left: 90px;
-    margin-top: 120px;
-    display: flex;
-}
-#late h2{
-    font-weight: 500;
-    font-size: 20px;
-}
-#late p{
-    margin-top: 30px;
-    font-weight: 520;
-    font-size: 60px;
-    line-height: 60px;
-}
-#fence{
-    border: 1px solid grey;
-    min-height: 250px;
-    padding: 20px;
-    border-radius: 20px;
-    
-}
-
-#hov{
-    position: absolute;
-    margin-top:-20px;
-    left: 820px;
-}
-#fence p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-#fence h4{
-    font-weight: 600;
-}
-#fence h3{
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 20px;
-}
-#grp{
-    margin-left: 250px;
-}
 #container4 h1{
     color: black;
     text-align: center;
     font-size: 55px;
     font-weight: 500;
-    margin-top: 170px;
+    padding-top: 50px;
 }
-#container4 #btn{
-    margin-top: 40px;
-    margin-left: 600px;
+#contain{
+    padding: 30px;
+    margin-top: 20px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#box1{
+    min-height: 365px;
+    width: 24%;
+    overflow: hidden;
+}
+#pic{
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 20px;
+    background: url('/images/owner.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 365px;
+}
+#texts h1{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#texts p{
+    margin-top: 7px;
+    font-size: 18px;
+}
+#container5 p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#container5 h4{
+    text-align: center;
+    margin-top: 20px;
+}
+#container5 #p{
+    margin-top: 0px;
 }
 
 
